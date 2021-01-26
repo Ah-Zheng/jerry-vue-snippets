@@ -1,0 +1,72 @@
+{
+    /*
+     * vue-property-decorator
+     * vuex-class
+     */
+    // Prop
+    "TypeScript Prop": {
+        "prefix": "ts-prop",
+        "body": [
+            "@Prop({",
+            "  type: ${1|String,Number,Boolean,Object,Array|},",
+            "  default: ${2:''}",
+            "})",
+            "${3|public,protected,private|} readonly ${4:PropName}!: ${5|string,number,boolean,any,any[]|};${0}"
+        ],
+        "description": "TypeScript Prop"
+    },
+    // Watch
+    "TypeScript Watch": {
+        "prefix": "ts-watch",
+        "body": [
+            "@Watch('${1:ObservedName}')",
+            "${2|public,protected,private|} ${1}Handler(${4:val}: any) {$0}"
+        ],
+        "description": "TypeScript Watch"
+    },
+    // Computed
+    "TypeScript Computed": {
+        "prefix": "ts-computed",
+        "body": [
+            "${1|public,protected,private|} ${2|get,set|}() {${0}}"
+        ],
+        "description": "TypeScript Computed"
+    },
+    // Ref
+    "TypeScript Ref": {
+        "prefix": "ts-ref",
+        "body": [
+            "@Ref('${1:RefName}')",
+            "${2|public,protected,private|} $${1}!: any;${0}"
+        ],
+        "description": "TypeScript Ref"
+    },
+    // State
+    "TypeScript State": {
+        "prefix": "ts-state",
+        "body": [
+            "@State((state: ${1:StateType}) => state.${2:Module})",
+            "${3|public,protected,private|} readonly ${4:StateName}!: ${1};${0}"
+        ],
+        "description": "TypeScript State"
+    },
+    /*
+     * Typescript Method
+     */
+    // ts function
+    "Typescript Function": {
+        "prefix": "ts-method",
+        "body": [
+            "${1|public,protected,private|} ${2:FuncName}() {${0}}"
+        ],
+        "description": "Typescript Function"
+    },
+    // ts created | mounted | destroyed function
+    "Vue TypeScript Life Method": {
+        "prefix": "ts-v-life-method",
+        "body": [
+            "${1|public, protected, private|} ${2|created,mounted,destoryed|}() {${0}}"
+        ],
+        "description": "Vue TypeScript Life Method"
+    }
+}
