@@ -1,0 +1,112 @@
+{
+    // vue
+    "v": {
+        "prefix": "Vue",
+        "body": [
+            "<template>",
+            "",
+            "<template>"
+        ],
+        "description": "v"
+    },
+    // vue pug
+    "vp": {
+        "prefix": "Vue Pug",
+        "body": [
+            "<template lang=\"pug\">",
+            "",
+            "<template>"
+        ],
+        "description": "v"
+    },
+    // vue ts
+    "vt": {
+        "prefix": "Vue TypeScript",
+        "body": [
+            "<template>",
+            "",
+            "<template>",
+            "",
+            "<script lang=\"ts\">",
+            "import { Component, Vue } from 'vue-property-decorator';",
+            "",
+            "@Component",
+            "export default class $TM_FILENAME extends Vue {",
+            "",
+            "}",
+            "<script>",
+            ""
+        ],
+        "description": "vt"
+    },
+    // vue pug ts
+    "vpt": {
+        "prefix": "Vue Pug TypeScript",
+        "body": [
+            "<template lang=\"pug\">",
+            "",
+            "<template>",
+            "",
+            "<script lang=\"ts\">",
+            "import { Component, Vue } from 'vue-property-decorator';",
+            "",
+            "@Component",
+            "export default class $TM_FILENAME extends Vue {",
+            "",
+            "}",
+            "<script>",
+            ""
+        ],
+        "description": "vpt"
+    },
+    // vue pug ts scss
+    "vpts": {
+        "prefix": "Vue Pug TypeScript Scss",
+        "body": [
+            "<template lang=\"pug\">",
+            "",
+            "<template>",
+            "",
+            "<script lang=\"ts\">",
+            "import { Component, Vue } from 'vue-property-decorator';",
+            "",
+            "@Component",
+            "export default class $TM_FILENAME extends Vue {",
+            "",
+            "}",
+            "<script>",
+            "",
+            "<style lang=\"scss\">",
+            "",
+            "</style>",
+            "",
+            ""
+        ],
+        "description": "vpts"
+    },
+    // vue pug ts scss scoped
+    "vptss": {
+        "prefix": "Vue Pug TypeScript Scss-Scoped",
+        "body": [
+            "<template lang=\"pug\">",
+            "",
+            "<template>",
+            "",
+            "<script lang=\"ts\">",
+            "import { Component, Vue } from 'vue-property-decorator';",
+            "",
+            "@Component",
+            "export default class $TM_FILENAME extends Vue {",
+            "",
+            "}",
+            "<script>",
+            "",
+            "<style lang=\"scss\" scoped>",
+            "",
+            "</style>",
+            "",
+            ""
+        ],
+        "description": "vptss"
+    }
+}

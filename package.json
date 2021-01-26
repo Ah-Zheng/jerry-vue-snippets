@@ -1,0 +1,22 @@
+{
+    "name": "jerry-vue-snippets",
+    "displayName": "Jerry Vue Snippets",
+    "description": "Jerry's Vue Snippets",
+    "version": "0.0.1",
+    "publisher": "Jerry092383",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    },
+    "repository": "https://github.com/jerry092383/jerry-vue-snippets"
+}
