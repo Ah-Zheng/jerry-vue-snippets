@@ -28,7 +28,8 @@
         "body": [
             "<template lang=\"pug\">",
             "",
-            "</template>"
+            "</template>",
+            ""
         ],
         "description": "Vue + Pug"
     },
@@ -63,7 +64,8 @@
             "export default class $TM_FILENAME_BASE extends Vue {",
             "",
             "}",
-            "</script>"
+            "</script>",
+            ""
         ],
         "description": "Vue TypeScript Mixins"
     },
@@ -107,14 +109,13 @@
             "<style lang=\"scss\">",
             "",
             "</style>",
-            "",
             ""
         ],
         "description": "Vue + Pug + TypeScript + Scss"
     },
     // vue pug ts scss scoped
     "Vue Pug TypeScript Scss-Scoped": {
-        "prefix": "",
+        "prefix": "vptss",
         "body": [
             "<template lang=\"pug\">",
             "",
@@ -132,7 +133,6 @@
             "<style lang=\"scss\" scoped>",
             "",
             "</style>",
-            "",
             ""
         ],
         "description": "Vue + Pug + TypeScript + Scss-Scoped"
